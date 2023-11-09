@@ -288,7 +288,6 @@ class build(distutils.command.build.build):
                 "--module",
                 "--enable-plugin=pylint-warnings",
                 "--output-dir=%s" % output_dir,
-                "--nofollow-import-to=*.tests",
                 "--remove-output",
             ]
 
